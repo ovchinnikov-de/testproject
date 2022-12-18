@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: #4d4165;
+  color: #fff;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c245ee;
+  color: #fff;
+}
+.links{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+.header h3{
+  margin-left: 15px;
+}
+.films{
+  margin: 40px 0px 40px 30px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+  background-color: #c245ee;
+  padding: 20px;
+
+}
+.films__button{
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.films__poster{
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.poster{
+  float: left;
+  width: 70%;
+}
+
+aside{
+  width: 30%;
+  margin-top: 80px;
+  float: left;
+}
+aside form input, aside form button{
+  width: 90%;
+  padding: 15px 5%;
+  margin-bottom: 10px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+}
+aside form button{
+  cursor: pointer;
+}
+
+.sort{
+margin-top: 20px;
+  margin-left: 20px;
+ font-size: 15px;
+  outline: none;
+}
+.filter{
+  font-size: 15px;
+  outline: none;
+  margin-left: 30px;
+}
